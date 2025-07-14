@@ -62,21 +62,8 @@ For those who just want to see a quick demonstration, the simple demo provides a
 
 ![Model Performance Analysis](model_performance_analysis.png)
 
-Our comprehensive analysis shows that the **Random Forest model** achieves the best performance with **79.17% accuracy** on the test set. Here's what the analysis reveals:
+Looking at the results, our model is doing pretty well at predicting student performance! The Random Forest model, which is our best performer, correctly predicts student performance levels about 79% of the time - that's like getting 8 out of 10 predictions right. What's really interesting is that the model found that student engagement matters the most: things like how often students visit learning resources and raise their hands in class are the strongest predictors of performance. The model is particularly good at identifying high and low-performing students, though it sometimes has a bit more trouble with students in the middle range. The other models (like Logistic Regression and Gradient Boosting) also did decent work, but Random Forest was the clear winner. When the model is confident in its prediction, it's usually right, which makes it a reliable tool for identifying students who might need extra support or those who are likely to excel.
 
-- **Best Performing Model**: Random Forest with 79% accuracy, demonstrating strong predictive capability
-- **Key Insights**: Student engagement metrics (hands raised, resources visited) are the most important predictors
-- **Robust Performance**: Cross-validation scores show consistent performance across different data splits
-- **Class Performance**: The model excels at identifying high and low-performing students, with some challenges in the medium range
-- **Model Comparison**: Random Forest outperforms Logistic Regression (72%), Gradient Boosting (72%), and SVM (65%)
-
-The visualization dashboard provides detailed insights into:
-- Model accuracy comparisons and cross-validation results
-- Feature importance analysis showing which student behaviors matter most
-- Confusion matrix revealing prediction patterns across performance levels
-- Prediction confidence analysis for model reliability assessment
-
-This level of accuracy makes the system suitable for early intervention programs, helping educators identify students who may need additional support or recognition.
 
 ## Output Files
 
