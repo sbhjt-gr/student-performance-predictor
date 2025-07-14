@@ -1,0 +1,8 @@
+{
+  "model_results": {
+    "NaiveBayes": 0.34375,
+    "RuleBased": 0.625
+  },
+  "best_model": "RuleBased",
+  "best_accuracy": 0.625
+}
