@@ -11,24 +11,6 @@ When it comes to machine learning, the project supports multiple powerful algori
 
 The system also includes hyperparameter tuning using GridSearchCV with cross-validation to find the best settings for each model automatically. Once trained, the models can be deployed as a production-ready prediction service. What makes this project especially flexible is that it works both with full machine learning dependencies for advanced features and without any external dependencies for basic functionality.
 
-## Project Structure
-```
-├── run.py                     # Unified entry point (recommended)
-├── main.py                    # Advanced system (requires dependencies)
-├── minimal_ml.py             # Minimal system (no dependencies)
-├── simple_demo.py            # Simple demonstration
-├── config.py                 # Configuration and hyperparameters
-├── advanced_analysis.py      # Advanced data analysis
-├── feature_engineering.py    # Feature engineering pipeline
-├── advanced_ml.py           # Machine learning pipeline
-├── predictor.py             # Model deployment service
-├── requirements.txt         # Python dependencies
-├── StudentPerformance.csv   # Dataset
-├── outputs/                 # Generated reports
-├── figures/                 # Visualization outputs
-└── models/                  # Trained model files
-```
-
 ## Quick Start
 
 ### Option 1: Automatic System Detection (Recommended)
@@ -90,8 +72,5 @@ This project is for educational purposes.
 ## Contributing
 
 This project demonstrates advanced machine learning practices and serves as a great foundation for further development. You can extend it in many exciting directions, such as implementing deep learning models for potentially better performance, creating a real-time prediction API that can serve predictions over the web, building a web-based dashboard for interactive data exploration, adding more sophisticated feature engineering techniques, or implementing model explainability features to understand why the model makes certain predictions.
-
-## License
-MIT
 
 ---
